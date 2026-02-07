@@ -158,8 +158,7 @@
         const micBtn = document.getElementById('micBtn');
 
         // Audio Feedback
-        const buttonSound = new Audio("C:\\Users\\rajiya\\Downloads\\sms-185447.mp3");
-        
+        const buttonSound = new Audio("sms-185447.mp3");         
         function playSound() {
             buttonSound.currentTime = 0;
             buttonSound.play().catch(() => { /* Handle auto-play block */ });
